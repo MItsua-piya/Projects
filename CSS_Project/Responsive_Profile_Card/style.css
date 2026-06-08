@@ -1,87 +1,97 @@
 body {
   margin: 0px;
   padding: 0px;
-       height: 100vh;
-   display:flex;
+  height: 100vh;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 .containers {
-   
   height: 500px;
   width: 400px;
-  border-radius:30px;
-  background-color:rgb(255, 255, 255);
-  border:3px solid ;
-  overflow:hidden;
-  position:relative;
-  
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid;
+  overflow: hidden;
+  position: relative;
 }
-.pic{
-      width:120px;
-    height:120px;
-    border-radius:50%;
+.pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
 
-    position:absolute;
-    top:70px;
-    left:50%;
-    transform:translateX(-50%);
-
-    overflow:hidden;
-    border:4px solid white;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  border: 4px solid royalblue;
 }
 .containers .head {
- border-radius:30px 30px 0px 0px;
+  border-radius: 30px 30px 0px 0px;
   height: 140px;
- 
-  background-color:royalblue;
+
+  background-color: royalblue;
 }
-.containers .bot{
-    padding:20px;
+.containers .bot {
+  padding: 20px;
 }
-.btns{
- position:relative;
- left:px;
- top:140px;
- gap:20px;
+.btns {
+  position: relative;
+  left: px;
+  top: 125px;
+  gap: 20px;
 }
-.btns .btn{
-      background-color: royalblue !important;
-    color: white !important;
-    border-radius: 20px !important;
-    padding: 10px 20px !important;
-    width:180px;
-   
+.btns .btn {
+  background-color: royalblue !important;
+  color: white !important;
+  border-radius: 20px !important;
+  padding: 10px 20px !important;
+  width: 180px;
 }
-.bot{
-      margin-top: 90px;
-    display: flex;
-    justify-content: center;
+.bot {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
 }
-.icons{
- 
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    gap: 30px;
-width:100%;
-    margin-top: 2px;
-    font-size: 22px;}
-   
-    
- 
-.bi-facebook{
-    color:#1877f2;
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 100%;
+  /* margin-top: 2px; */
+  font-size: 22px;
 }
 
-.bi-twitter{
-    color:#1da1f2;
+.bi-facebook {
+  color: #1877f2;
 }
 
-.bi-instagram{
-    color:#e1306c;
+
+.bi-twitter {
+  color: #1da1f2;
 }
 
-.bi-youtube{
-    color:red;
+.bi-instagram {
+  color: #e1306c;
 }
+
+.bi-youtube {
+  color: red;
+}
+.like {
+  display: flex;
+   margin-top: 95px;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+ .like button{
+    border: none !important;
+    outline: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
