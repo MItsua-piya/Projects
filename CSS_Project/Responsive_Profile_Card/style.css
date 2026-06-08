@@ -11,7 +11,8 @@ body {
   height: 500px;
   width: 400px;
   border-radius:30px;
-  background-color:rgb(23, 19, 19);
+  background-color:rgb(255, 255, 255);
+  border:3px solid ;
   overflow:hidden;
   position:relative;
   
@@ -69,3 +70,18 @@ width:100%;
    
     
  
+.bi-facebook{
+    color:#1877f2;
+}
+
+.bi-twitter{
+    color:#1da1f2;
+}
+
+.bi-instagram{
+    color:#e1306c;
+}
+
+.bi-youtube{
+    color:red;
+}
